@@ -62,10 +62,11 @@ header p {
     margin-bottom: 52px;
 }
 
-header figure i{
-    margin-top:49px;
-    color:#fff;
+header figure i {
+    margin-top: 49px;
+    color: #fff;
 }
+
 /*nav style*/
 
 nav {
@@ -73,6 +74,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     border-bottom: 1px solid #ffe600;
 }
 
@@ -80,17 +82,28 @@ nav ul {
     margin-right: 100px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 0px;
 }
 
 nav ul li {
     list-style: none;
-    margin: 43px;
+    margin: 21.5px;
 }
 
 nav ul li a {
     color: #c8c8c8;
     font-size: 15px;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li a:hover {
+    border: 1px solid #ffe600;
+
 }
 
 nav figure {
@@ -188,6 +201,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-content .row .portfolio {
@@ -244,104 +258,123 @@ p {
 
 }
 
-.about-content i{
-    color:#131316;
-    margin-bottom:116px;
+.about-content i {
+    color: #131316;
+    margin-bottom: 116px;
 }
 
 /*clients section style*/
 
-#clients{
+#clients {
     height: 501px;
     width: 100%;
     background-color: #424245;
 }
 
-#clients h2{
-      padding-top: 121px;
+#clients h2 {
+    padding-top: 121px;
     margin-bottom: 32px;
-    margin-top:0px;
-    color:#fff;
+    margin-top: 0px;
+    color: #fff;
 }
-#clients >p{
-    margin-bottom:135px;
+
+#clients > p {
+    margin-bottom: 135px;
 }
 
 /*form*/
-#contact{
-    
-    
+
+#contact {
+    box-sizing: border-box;
 }
-form{
+
+form {
     width: 970px;
     margin-left: auto;
     margin-right: auto;
 }
 
-form input,textarea{
+form input,
+textarea {
     background-color: #ffe600
 }
-form input.half{
+
+form input.half {
     width: 470px;
     height: 50px;
-    border:0px;
+    border: 0px;
     margin-right: 16px;
 }
-form input.half2{
+
+form input.half2 {
     width: 470px;
-    height:50px;
-    border:0px;
-    margin-left:10px;
-    margin-bottom:20px;
-}
-form input.subject{
-    width: 970px;
     height: 50px;
-    border:0px;
+    border: 0px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 
-form textarea{
-    width: 970px;
-    height: 180px;
-    border:0px;
-    
+form input.half2::placeholder,
+form input.half::placeholder {
+    padding-left: 23px;
+    padding-top: 21px;
 }
 
-form button.submit{
+form input.subject {
+    width: 970px;
+    height: 50px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+form input.subject::placeholder {
+    padding-left: 23px;
+    padding-top: 21px;
+}
+
+form textarea {
+    width: 970px;
+    height: 180px;
+    border: 0px;
+    padding:0px;
+
+}
+
+form button.submit {
     background: #131316;
-    color:#ffe600;
+    color: #ffe600;
     width: 970px;
     height: 50px;
     margin-top: 20px;
-    border:0px;
+    border: 0px;
     margin-bottom: 112px;
 }
 
 /*footer*/
-footer{
+
+footer {
     width: 100%;
     height: 100px;
     background-color: #131316;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-footer p{
-    color:#ffe600;
+footer p {
+    color: #ffe600;
     font-size: 13px;
-    margin:0px;
+    margin: 0px;
 }
 
-footer i{
-    color:#fff;
+footer i {
+    color: #fff;
     margin: 10px;
-    margin-top:0px;
-    margin-bottom:0px;
-}
-footer textarea::placeholder{
-    padding-left: 23px;
-    padding-top:21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
+textarea::placeholder {
+    padding-left: 23px;
+    padding-top: 21px;
+}

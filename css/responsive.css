@@ -1,0 +1,44 @@
+@media only screen and (max-width: 992px) {
+    
+    .about-content div{
+        width: 33%;
+    }
+    
+    form{
+   padding:0px;
+         width: 96%;
+      
+    }
+    
+    
+    form input.half2,form input.half {
+        width: 100%;
+        margin-right:0px;
+        
+    }
+    
+    form input.half2{
+        margin-left:0px;
+        margin-top:20px;
+    }
+    
+   form input.subject{
+        width: 100%;
+    }
+    
+    form button.submit{
+        width: 100%;
+    }
+    form textarea{
+        width: 100%;
+        padding: 0px;
+    }
+} 
+
+
+/*++++++++    768px mediaQueries  ****************************************************************/
+@media only screen and (max-width: 768px){
+    .about-content div{
+        width: 100%;
+    }
+}
