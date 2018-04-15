@@ -1,44 +1,93 @@
+@media only screen and (max-width:1172px) {
+    nav figure {
+        padding-top: 20px;
+    }
+
+    nav ul {
+        margin-right: 0px;
+    }
+}
+
+
 @media only screen and (max-width: 992px) {
-    
-    .about-content div{
+
+
+    nav {
+        height: auto;
+    }
+
+    nav figure {
+        padding-top: 20px;
+    }
+    .about-content div {
         width: 33%;
     }
-    
-    form{
-   padding:0px;
-         width: 96%;
-      
+
+    form {
+        padding: 0px;
+        width: 96%;
+
     }
-    
-    
-    form input.half2,form input.half {
+
+
+    form input.half2,
+    form input.half {
         width: 100%;
-        margin-right:0px;
-        
+        margin-right: 0px;
+
     }
-    
-    form input.half2{
-        margin-left:0px;
-        margin-top:20px;
+
+    form input.half2 {
+        margin-left: 0px;
+        margin-top: 20px;
     }
-    
-   form input.subject{
-        width: 100%;
-    }
-    
-    form button.submit{
+
+    form input.subject {
         width: 100%;
     }
-    form textarea{
+
+    form button.submit {
+        width: 100%;
+    }
+    form textarea {
         width: 100%;
         padding: 0px;
     }
-} 
+}
 
 
 /*++++++++    768px mediaQueries  ****************************************************************/
-@media only screen and (max-width: 768px){
-    .about-content div{
+
+@media only screen and (max-width: 768px) {
+
+    nav ul.nav-mobile-ul {
+        display: none;
+    }
+    
+    
+    
+    nav figure{
         width: 100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:20px;
+        margin:0px;
+    }
+    #mobile-menu{
+        display:block;
+    }
+    nav ul {
+        margin:0px;
+        padding-left:0px;
+    }
+
+    .about-content div {
+        width: 100%;
+    }
+    nav ul li a{
+        display:inline-block;
+        width: 90vw;
+        text-align:center;
     }
 }

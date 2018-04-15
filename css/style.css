@@ -90,6 +90,7 @@ nav ul {
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 0px;
+    margin-top:0px;
 }
 
 nav ul li {
@@ -114,6 +115,14 @@ nav ul li a:hover {
 
 nav figure {
     margin-left: 100px;
+}
+
+/*nav hamburger mobile-menu*/
+#mobile-menu{
+  
+    display:none;
+    background-color:transparent;
+   border:0px ;
 }
 
 h2,
