@@ -28,4 +28,15 @@ $(document).ready(function(){
             scrollTop: $('header').offset().top
         },1000);
     })
+    
+    
 })
+
+     $(document).on('click', 'a[href^="#"]', function(event) {
+       event.preventDefault();
+var menuHeight = $('.nav-mobile-ul').height();
+       $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - menuHeight
+        }, 500);
+  });
+
