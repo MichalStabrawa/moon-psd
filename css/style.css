@@ -13,7 +13,7 @@ h1 {
 }
 
 
-
+/*header style****************8*/
 header {
     width: 100%;
     height: 100vh;
@@ -48,7 +48,13 @@ header button {
     margin-left: auto;
     margin-right: auto;
     color: #fff;
+    transition:0.3s;
 
+}
+
+header button:hover{
+    background:#ffe600;
+    transition:0.3s;
 }
 
 header h1,
@@ -282,7 +288,7 @@ p {
     margin-bottom: 135px;
 }
 
-/*form*/
+/*form*****************************************************************CONTACT****/
 
 #contact {
     box-sizing: border-box;
@@ -348,9 +354,13 @@ form button.submit {
     margin-top: 20px;
     border: 0px;
     margin-bottom: 112px;
+    transition:0.3s;
+}
+form button.submit:hover{
+  opacity:0.9;
 }
 
-/*footer*/
+/*footer***********************************/
 
 footer {
     width: 100%;
@@ -359,6 +369,11 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap:wrap ;
+    -ms-flex-wrap:wrap ;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap: ;
 }
 
 footer p {
