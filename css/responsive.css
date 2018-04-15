@@ -91,3 +91,28 @@
         text-align:center;
     }
 }
+
+@media only screen and (max-width: 576px){
+    header p{
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+    header button{
+        margin-top:5px;
+    }
+    
+    .about-content{
+        margin-left:auto;
+        margin-right:auto;
+        flex-direction: column;
+    }
+    
+    
+    #clients{
+        height: auto;
+        padding-bottom: 121px;
+    }
+    #clients .about-content figure{
+        margin-top:16px;
+    }
+}
